@@ -23,7 +23,7 @@
 }
 
 .sidebar-brand {
-    height: 100px;
+    height: 70px;
 }
 
 .brand-flex {
@@ -38,7 +38,7 @@
 }
 
 .sidebar-user {
-    margin: 0rem 0rem 1rem 0 rem;
+    margin: 1rem 0rem 1rem 0rem;
     text-align: center;
 }
 
@@ -90,10 +90,57 @@
     margin-right: 0.8rem;
 }
 
-.main-content {
-    margin-left: 280px;
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
 
 }
+
+.menu-toggle label {
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.header-icons span {
+    display: inline-block;
+    margin-left: .7rem;
+    font-size: 1.4rem;
+}
+
+.menu-toggle label:hover {
+    background-color: #efefef;
+}
+
+.main-content {
+    margin-left: 280px;
+}
+
+.main {
+    padding: 1.5rem;
+    background: #F1F5F9;
+    min-height: calc(100vh - 70px);
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-actions button{
+    outline: none;
+    background: white;
+    border: none;
+    padding: 1rem;
+}
+
+
 
 
 
