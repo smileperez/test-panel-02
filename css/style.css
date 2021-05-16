@@ -133,15 +133,75 @@
     justify-content: space-between;
 }
 
-.header-actions button{
+.header-actions button {
     outline: none;
-    background: white;
+    color: white;
+    background: #5850ec;
     border: none;
-    padding: 1rem;
+    border-radius: 3px;
+    padding: .6rem 1rem;
+    margin-left: 1rem;
+    font-weight: 600;
 }
 
+.header-actions button span{
+    font-size: 1.2rem;
+    margin-right: .6rem;
+}
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 2rem;
+}
 
+.card-single {
+    background: white;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0, 0.2);
+    border-radius: 2px;
+}
+
+.card-flex {
+    display: grid;
+    grid-template-columns: 80% auto;
+    align-items: center;
+}
+
+.card-header {
+    display: block;
+    text-transform: uppercase;
+    color: #555;
+    font-size: .9rem;
+}
+
+.card-header small {
+    font-weight: 600;
+    color: #555;
+    display: block;
+}
+
+.card-info h2 {
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.card-chart span {
+    font-size: 4rem;
+}
+
+.card-chart.success span {
+    color: seagreen;
+}
+
+.card-chart.danger span {
+    color: tomato;
+}
+
+.card-chart.warning span {
+    color: orange;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
