@@ -193,7 +193,7 @@
     font-size: 4rem;
 }
 
-.card-chart.succes span {
+.card-chart.success span {
     color: seagreen;
 }
 
@@ -205,4 +205,26 @@
     color: orange;
 }
 
+.jobs-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto 66%;
+    grid-gap: 3rem;
+}
 
+.analitics-card {
+    background: white;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0, 0.2);
+    border-radius: 2px;
+}
+
+.analitics-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analitics-head span {
+    font-size: 1.3rem;
+}
