@@ -72,6 +72,11 @@
     margin-left: .5rem;
 }
 
+.brand-icons span:hover {
+    font-size: 1.6rem;
+    transition: font-size 200ms;
+}
+
 .sidebar-user {
     margin: 1rem 0rem 1rem 0rem;
     text-align: center;
@@ -154,6 +159,11 @@
     display: inline-block;
     margin-left: .7rem;
     font-size: 1.4rem;
+}
+
+.header-icons span:hover {
+    font-size: 1.5rem;
+    transition: font-size 200ms;
 }
 
 .menu-toggle label:hover {
