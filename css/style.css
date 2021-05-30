@@ -63,6 +63,10 @@
     align-items: center;
 }
 
+.brand-flex img {
+    width: 30px;
+}
+
 .brand-icons span {
     font-size: 1.5rem;
     margin-left: .5rem;
@@ -356,6 +360,10 @@ table button {
 
 .table-responsive {
     overflow: auto;
+}
+
+.table-responsive table {
+    width: 100%;
 }
 
 @media only screen and (max-width: 1124px) {
